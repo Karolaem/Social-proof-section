@@ -1,0 +1,309 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background:url("bg-pattern-top-mobile.svg") no-repeat left top, url(bg-pattern-bottom-mobile.svg) bottom right no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vw;
+}
+
+.container{
+   width: 320px;
+   padding-top: 30px;
+   padding-bottom: 30px;
+}
+@font-face {
+    font-family: "spartan";
+    src: url(LeagueSpartan-VariableFont_wght.ttf);
+}
+.container .title-intro h1{
+    font-family: spartan;
+    color: rgba(76,28,76,255);
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+}
+
+.container .title-intro p{
+    font-family: spartan;
+    text-align: center;
+    font-weight: 500;
+    color: rgba(148,138,149,255);
+    margin-top: 30px;
+    font-size: 20px ;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+.container .rates{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container .rate1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 65px;
+    background-color: rgba(247,242,248,255);
+    border-radius: 5px;
+    color:rgba(73,35,74,255) ;
+    font-family: spartan;
+    font-size: large;
+    margin-bottom: 20px;
+    flex-direction: column;
+}
+.container .rate2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 65px;
+    background-color: rgba(247,242,248,255);
+    border-radius: 5px;
+    color:rgba(73,35,74,255) ;
+    font-family: spartan;
+    font-size: large;
+    margin-bottom: 20px;
+    flex-direction: column;
+}
+.container .rate3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 65px;
+    background-color: rgba(247,242,248,255);
+    border-radius: 5px;
+    color:rgba(73,35,74,255) ;
+    font-family: spartan;
+    font-size: large;
+    margin-bottom:50px;
+    flex-direction: column;
+}
+.container .reviews{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container .reviews .review1 img{
+    border-radius: 50%;
+    width: 50px;
+}
+
+.container .reviews .review1{
+    width: 300px;
+    background-color:rgba(81,31,80,255) ;
+    padding-left: 40px;
+    padding-top: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.container .reviews .review1 strong{
+    color: white;
+    font-family: spartan;
+    margin-top: -40px;
+    display: block;
+    margin-left: 80px;
+    font-weight: 700;
+    font-size: large;
+}
+
+.container .reviews .review1 .verified{
+    color: rgba(165,73,130,255);
+    font-family: spartan;
+    margin-top: 5px;
+    display: block;
+    margin-left: 83px;
+    font-weight: 500;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.container .reviews .review1 .comment{
+    color: white;
+    font-family: spartan;
+    margin-top: 5px;
+    font-weight: 400;
+    font-size: 17px;
+    margin-bottom: 30px;
+    padding-right: 40px;
+    line-height: 1.2;
+}
+
+.container .reviews .review2 img{
+    border-radius: 50%;
+    width: 50px;
+}
+
+.container .reviews .review2{
+    width: 300px;
+    background-color:rgba(81,31,80,255) ;
+    padding-left: 40px;
+    padding-top: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.container .reviews .review2 strong{
+    color: white;
+    font-family: spartan;
+    margin-top: -40px;
+    display: block;
+    margin-left: 80px;
+    font-weight: 700;
+    font-size: large;
+}
+
+.container .reviews .review2 .verified{
+    color: rgba(165,73,130,255);
+    font-family: spartan;
+    margin-top: 5px;
+    display: block;
+    margin-left: 83px;
+    font-weight: 500;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.container .reviews .review2 .comment{
+    color: white;
+    font-family: spartan;
+    margin-top: 5px;
+    font-weight: 400;
+    font-size: 17px;
+    margin-bottom: 30px;
+    padding-right: 40px;
+    line-height: 1.2;
+}
+
+.container .reviews .review3 img{
+    border-radius: 50%;
+    width: 50px;
+}
+
+.container .reviews .review3{
+    width: 300px;
+    background-color:rgba(81,31,80,255) ;
+    padding-left: 40px;
+    padding-top: 30px;
+    border-radius: 10px;
+}
+
+.container .reviews .review3 strong{
+    color: white;
+    font-family: spartan;
+    margin-top: -40px;
+    display: block;
+    margin-left: 80px;
+    font-weight: 700;
+    font-size: large;
+}
+
+.container .reviews .review3 .verified{
+    color: rgba(165,73,130,255);
+    font-family: spartan;
+    margin-top: 5px;
+    display: block;
+    margin-left: 83px;
+    font-weight: 500;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.container .reviews .review3 .comment{
+    color: white;
+    font-family: spartan;
+    margin-top: 5px;
+    font-weight: 400;
+    font-size: 17px;
+    margin-bottom: 30px;
+    padding-right: 40px;
+    line-height: 1.2;
+}
+
+@media screen and (min-width: 992px) {
+    body{
+        background:url("bg-pattern-top-desktop.svg") no-repeat left top, url("bg-pattern-bottom-desktop.svg") bottom right no-repeat;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        min-width: 100vh;
+    }
+    .container{
+       padding: 60px;
+       width: 900px;
+       padding-bottom: 20px;
+    }
+
+    .container .title-intro h1{
+        text-align: left;
+        width: 400px;
+    }
+
+    .container .title-intro p{
+        text-align: left;
+        width: 480px;
+    }
+
+    .container .rates{
+         display: flex;
+         margin-left: 750px;
+         margin-top: -220px;
+    }
+
+    .container .rate1{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 380px;
+        height: 50px;
+        margin-bottom: 20px;
+        flex-direction: row;
+        margin-left: 100px;
+    }
+    .container .rate2{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 380px;
+        height: 50px;
+        margin-bottom: 20px;
+        flex-direction: row;
+        margin-left: 175px;
+    }
+
+    .container .rate3{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 380px;
+        height: 50px;
+        margin-bottom: 20px;
+        flex-direction: row;
+        margin-left: 250px;
+    }
+    .container .reviews .review1{
+        margin-left: -430px;
+        width: 350px;
+    }
+    .container .reviews .review2{
+        margin-left:300px ;
+        margin-top: -250px;
+        width: 350px;
+    }
+    .container .reviews .review3{
+        margin-left:1030px ;
+        margin-top: -250px;
+        width: 350px;
+    }
+}
+
